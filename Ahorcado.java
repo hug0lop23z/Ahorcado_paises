@@ -64,13 +64,21 @@ public class Ahorcado {
             System.out.println(letras_adi);
             System.out.println("Letras falladas: "+falladas);
             user = sc.next().toLowerCase();
-            for (int i = 0; i < user.length(); i++) {
-                if (palabra.contains(user.charAt(i)+"")){
-                    letras_adi = sustituirGuion(letras_adi, palabra, user.charAt(i));
+            if (user.length()>1){
+                if (user.equals(palabra)){
+                    letras_adi = palabra;
                 }else {
-                    if (!falladas.contains(user.charAt(i))){
-                        falladas.add(user.charAt(i));
-                        intentos++;
+                    intentos++;
+                }
+            }else {
+                for (int i = 0; i < user.length(); i++) {
+                    if (palabra.contains(user.charAt(i)+"")){
+                        letras_adi = sustituirGuion(letras_adi, palabra, user.charAt(i));
+                    }else {
+                        if (!falladas.contains(user.charAt(i))){
+                            falladas.add(user.charAt(i));
+                            intentos++;
+                        }
                     }
                 }
             }
