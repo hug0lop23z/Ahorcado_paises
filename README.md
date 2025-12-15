@@ -6,17 +6,6 @@
 
 Un juego de consola clásico del **Ahorcado** programado en Java, centrado en adivinar nombres de países. Este proyecto demuestra el uso de estructuras de control, manejo de Strings y lógica de juegos básica.
 
-## 📋 Tabla de Contenidos
-
-- [Características](#-características)
-- [Demo del Juego](#-demo-del-juego)
-- [Requisitos](#-requisitos)
-- [Instalación y Ejecución](#-instalación-y-ejecución)
-- [Cómo Jugar](#-cómo-jugar)
-- [Estructura del Código](#-estructura-del-código)
-- [Autor](#-autor)
-
----
 
 ## 🎮 Características
 
