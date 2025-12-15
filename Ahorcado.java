@@ -21,7 +21,7 @@ public class Ahorcado {
     //Metodo para seleccionar el estado del tablero
     static String estados(int intento){
         String[] estados = {
-          "     -----\n     |   |\n         |\n         |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n         |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n     |   |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n    /|   |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n    /|\\  |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n    /|\\  |\n    /    |\n         |\n    =========","     -----\n     |   |\n     O   |\n    /|\\  |\n    / \\  |\n         |\n    ========="
+          "     -----\n     |   |\n         |\n         |\n         |\n         |\n    =========", "     -----\n     |   |\n     O   |\n         |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n     |   |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n    /|   |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n    /|\\  |\n         |\n         |\n    =========","     -----\n     |   |\n     O   |\n    /|\\  |\n    /    |\n         |\n    =========","     -----\n     |   |\n     O   |\n    /|\\  |\n    / \\  |\n         |\n    ========="
         };
         return estados[intento];
     }
