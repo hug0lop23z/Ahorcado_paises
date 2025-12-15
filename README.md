@@ -1,5 +1,4 @@
 # 🌍 Ahorcado de Países (Java)
-# 🌍 Ahorcado de Países (Java)
 
 ![Java](https://img.shields.io/badge/Language-Java-ed8b00?style=for-the-badge&logo=java&logoColor=white)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)
